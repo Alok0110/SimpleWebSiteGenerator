@@ -1,1 +1,1 @@
-# SimpleWebSiteGenerator
+# WebSiteGenerator

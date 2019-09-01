@@ -1,2 +1,2 @@
 # WebSiteGenerator
-Simple Web Site Builder, Developed for Joffer Systems LTD.
+Simple White Label Web Site Generator, Developed for Joffer Systems LTD.

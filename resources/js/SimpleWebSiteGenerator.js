@@ -12,9 +12,11 @@
 ;(function(global){
 	"use strict"
 
-	/*
-
-	*/
+	/**
+	 * Defaults
+	 *
+	 * @description Set all the required defaults
+	 */
 
 
 }(this));

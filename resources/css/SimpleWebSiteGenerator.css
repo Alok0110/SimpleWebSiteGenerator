@@ -4,6 +4,7 @@
 	width: 5%;
 	height: 100%;
 	margin-left: 0px;
+    left: 0;
 	position: absolute;
 	z-index: 998;
 }
@@ -94,6 +95,13 @@ background-image: url('../img/left-arrow.png');
 	font-size: 20px;
 }
 
+
+.custImg, .custPara{
+    cursor: pointer; 
+    float: left;
+    margin-left: 4%;
+}
+
 .sampText{
 	position: relative;
 	height: 5%;
@@ -102,6 +110,44 @@ background-image: url('../img/left-arrow.png');
 	overflow: hidden;
 	text-align: center;
 	font-size: 10px;
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.customHeaderBox{
+   
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+
+.customParagraphBox, .customImageBox{
+    position: relative;
+    float: left;
+    text-align: center;
+    display: inline;
+    width: 48%;
+}
+
+
+.customFooterBox, .customMidSectionBox{
+    position: relative;
+    float: left;
+    width: 100%;
+    /*height: 5%;*/
+    text-align: center;
+}
+
+.ui-widget-content{
+    
+    background: none;
 }
 
 /*-----------------------------------*/

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
     
         <!-- meta tags -->
         <meta charset="utf-8" />
-        <meta  name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
         <!-- title tag -->
         <title>Joffer - Web Generator</title>
         <!-- meta tags social -->
@@ -32,7 +32,12 @@
         <!--<link type="text/css" rel="stylesheet" href="vendors/css/bootstrap.min.css" >
         <link type="text/css" rel="stylesheet" href="vendors/css/bootstrap-theme.min.css" >-->
         <!--<link type="text/css" rel="stylesheet" href="vendors/css/bootstrap-theme.min.css.map">-->
-        <link type="text/css" rel="stylesheet" href="vendors/css/grid.css" >
+        
+        <!--<link type="text/css" rel="stylesheet" href="vendors/css/grid.css" >-->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="resources/js/jquery-ui-themes/themes/ui-lightness/jquery-ui.css" >
         
         <link type="text/css" rel="stylesheet" href="resources/css/SimpleWebSiteGenerator.css" >
         
@@ -47,19 +52,60 @@
         <link rel="manifest" href="resources/img/manifest.json">
         <link rel="mask-icon" href="resources/img/safari-pinned-tab.svg" color="#5bbad5">
         <link rel="shortcut icon" href="resources/img/favicon.ico">
+        
+        
+        
+
+        
         <meta name="msapplication-config" content="resources/img/browserconfig.xml">
         <meta name="theme-color" content="#ffffff"> 
         <!--[if lt IE 9]>
                 <script src="resources/js/html5shiv.js"></script>
                 <script src="resources/js/html5shiv-printshiv.js"></script>
+                https://www.tranzlease.com/
         <![endif]-->
         
         
-        
+        <style type="text/css" >
+            
+            .header-img{
+                background-image: url('resources/img/head1.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 500px;
+                
+            }
+            
+            .header-text-cl{
+                font-size: 50px;
+                border-style: dashed;
+                display: inline-block;
+                /*padding-top: 100px;
+                padding-bottom: 100px;*/
+                
+                margin-top: 200px;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+                text-align: center;
+                border-color: #5376F8;
+                /*background-color: #efefef;*/
+            }
+            
+            .fixed-menu-bar{
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                height: 70px;
+                background-color: #F5FFFA;
+                z-index: 987;
+            }
+        </style>
 
     </head>
 
-    <body class="">
+    <body  class="container-fluid" style="height: 700px">
         
         <div class="panelSel" id="panelSelId">
 
@@ -73,22 +119,23 @@
                 <div class="imgBox" id="sampText4"></div>
                 <div class="sampText">Sample #3</div>
                 <div  class="sampText">Sample #4</div>
-                <div class="imgBox" id="sampText5"></div>
-                <div class="imgBox" id="sampText6"></div>
-                <div  class="sampText">Sample #5</div>
-                <div  class="sampText">Sample #6</div>
-                <div class="imgBox"></div>
-                <div class="imgBox"></div>
-                <div   class="sampText">Sample #7</div>
-                <div   class="sampText">Sample #8</div>
-                <div class="imgBox"></div>
-                <div class="imgBox"></div>
-                <div   class="sampText">Sample #9</div>
-                <div   class="sampText">Sample #10</div>
-                <div class="imgBox"></div>
-                <div class="imgBox"></div>
-                <div  class="sampText">Sample #11</div>
-                <div  class="sampText">Sample #12</div>
+                <div class="headerBox">Custom Elements</div>
+                <!--<div class="customHeaderBox">
+                    <img style="cursor: pointer" height="100%" width="80%"  src="resources/img/headingImg.png" />
+                </div>
+                <div class="customParagraphBox">
+                    <img style="" class="custPara" height="100%" width="100%" src="resources/img/webcontent.png" />
+                </div>
+                <div class="customImageBox">
+                    <img style="" class="custImg" height="100%" width="100%" src="resources/img/webImg.png" />
+                </div>
+                <div class="customMidSectionBox">
+                    <img style="" class="custFooter" height="100%" width="70%" src="resources/img/midSection.png" />
+                </div>
+                <div class="customFooterBox">
+                    <img style="" class="custFooter" height="100%" width="70%" src="resources/img/Footer.png" />
+                </div>-->
+                
             </div>
 
 
@@ -105,19 +152,51 @@
                 
             </div>
 
-
-
             <div class="leftHandlerSel" id="leftHandlerSelId">
             </div>
         </div>
+        
+        <div class="header-controller-cl">
+        </div>
 
-        <div class="section" id="mainContainerId">
+        <div class="section" id="mainContainerId" >
+            
+            <div class="row fixed-menu-bar">
+            </div>
+            
+            <div class="row" style="">
+                <!-- header-img -->
+                <div id="parent_H_1_ID" class="col header-img" >
+                    
+                    
+                    <div id="H_1_ID" class="ui-widget-content header-text-cl">Your Heading Goes Here</div>
+                </div>
+            </div>
             
         </div>
         
         
         <script type="text/javascript" src="vendors/js/jquery.js"></script>
-        <script type="text/javascript" src="resources/js/SimpleWebSiteGenerator.js" ></script>
+        
+        <script type="text/javascript" src="resources/js/jquery-ui/ui/jquery-ui.js"></script>
+        <!--<script
+              src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+              integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+              crossorigin="anonymous"></script>-->
+        
+        <!--
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+-->
+        <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="resources/js/SimpleWebSiteGenerator_min_.js" ></script>
         
     </body>
     

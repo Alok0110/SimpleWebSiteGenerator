@@ -5,7 +5,7 @@
 	height: 100%;
 	margin-left: 0px;
     left: 0;
-	position: absolute;
+	position: fixed;
 	z-index: 998;
 }
 
@@ -39,7 +39,7 @@
 	width: 5%;
 	height: 100%;
 	right: 0%;
-	position: absolute;
+	position: fixed;
 	z-index: 998;
 }
 
@@ -148,6 +148,40 @@ h3{
 .ui-widget-content{
     
     background: none;
+}
+
+.sam{
+    width: 100%;
+    height: 100px;
+    float: left;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.sam1, .sam2{
+    width: 45%;
+    height: 90px;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+    border-style: dashed;
+    border-color: #5376F8;
+}
+
+.ui-widget-header{
+    border: #F5FFFA;
+    background: #F5FFFA;
+}
+
+.ui-dialog .ui-dialog-content{
+    background: #efefef;
+    opacity: 0.8;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.ui-dialog{
+    z-index: 971;
 }
 
 /*-----------------------------------*/

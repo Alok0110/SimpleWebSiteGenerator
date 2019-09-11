@@ -93,6 +93,7 @@ background-image: url('../img/left-arrow.png');
 	text-align: center;
 	margin-top: 10px;
 	font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
@@ -182,6 +183,12 @@ h3{
 
 .ui-dialog{
     z-index: 971;
+}
+
+#IMG_S{
+    height: 80px;
+    width: 80px;
+    background-image: url('../img/logo.gif');
 }
 
 /*-----------------------------------*/

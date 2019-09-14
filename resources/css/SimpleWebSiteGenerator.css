@@ -158,7 +158,7 @@ h3{
     font-family: 'Titillium Web', sans-serif;
 }
 
-.sam1, .sam2{
+.sam1, .sam2, .sam3{
     width: 45%;
     height: 90px;
     float: left;
@@ -185,10 +185,19 @@ h3{
     z-index: 971;
 }
 
-#IMG_S{
-    height: 80px;
-    width: 80px;
-    background-image: url('../img/logo.gif');
+.IMG_S{
+    
+    height: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.COL_DRAG{
+    outline: 3px dashed #5376F8;
+    outline-offset: -30px;
+    cursor: pointer;
 }
 
 /*-----------------------------------*/

@@ -124,7 +124,7 @@
 
     <body  class="S1 container-fluid" style="height: 700px">
         
-        <div class="panelSel" id="panelSelId">
+        <div class="panelSel " id="panelSelId">
 
             <div class="innerPanelSel" id="innerPanelSelId">
                 <div class="headerBox">Single Page Site</div>
@@ -195,7 +195,7 @@
             
             <div class="row" style="">
                 <!-- header-img -->
-                <div id="" class="col header-img parent_H_1_ID" >
+                <div id="" class="col header-img parent_H_1_ID COL_DRAG" >
                     
                     
                     <div id="S1_H_1_ID" class="ui-widget-content header-text-cl" style="top: 232px;left: 367px;">Your Heading Goes Here</div>
@@ -208,6 +208,17 @@
                 <div style="display: block">Font Color: <input id="" class="jscolor {onFineChange: '$.assignFontColor(this)'}" style="font-family: 'Titillium Web', sans-serif;" value="000000"></div>
                 <div style="display: block">Opacity: </div>
                 <div style="display: block">Back Color: <input id="" class="jscolor {onFineChange: '$.assignFontColor(this)'}" style="font-family: 'Titillium Web', sans-serif;" value="000000"></div>
+                <div style="">Back Height: <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" onclick="$.assignBackHeightMax(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Max</button>
+                        <button type="button" onclick="$.assignBackHeightMin(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Min</button>
+  
+                        </div></div>
+ 
+                <div style="">Back Width: <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" onclick="$.assignBackHeightMax(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Max</button>
+                        <button type="button" onclick="$.assignBackHeightMin(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Min</button>
+  
+                        </div></div>
                 
                 <!--Hex <input id="chosen-value" value="000000">
                 <button class="jscolor {valueElement:'chosen-value', onFineChange:'setTextColor(this)'}">
@@ -219,7 +230,7 @@
                 <p>Upload Here</p>
             </div>
             
-            <div class="row" id="S1_RO_1_SOR" > <!-- sample1 row -->
+            <div class="row " id="S1_RO_1_SOR" > <!-- sample1 row -->
                 <div id="S1_RO_1_SOR_COL_1" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
                      
                     <img alt="" id="S1_RO_1_SOR_COL_1_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam1.png" />
@@ -394,7 +405,7 @@
         
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         
-        <script type="text/javascript" src="resources/js/SimpleWebSiteGenerator_min_.js" ></script>
+        <script type="text/javascript" src="resources/js/SimpleWebSiteGenerator.js" ></script>
         
     </body>
     

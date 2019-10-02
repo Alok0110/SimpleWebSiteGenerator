@@ -189,13 +189,13 @@
             
             <div id="" class="row fixed-menu-bar parent_S1_LO_1_ID">
                 
-                <div id="S1_LO_1_ID" class="logo-img">ADD LOGO</div>
+                <div id="S1_LO_1_ID" onclick="$.setDialog(this, 'img')" class="logo-img">ADD LOGO</div>
                 
             </div>
             
             <div class="row" style="">
                 <!-- header-img -->
-                <div id="" class="col header-img parent_H_1_ID COL_DRAG" >
+                <div id="" class="col header-img parent_H_1_ID COL_DRAG resizeEle" >
                     
                     
                     <div id="S1_H_1_ID" onclick="$.setDialog(this, 'txt')" class="ui-widget-content header-text-cl" style="font-size: 50px;top: 232px;left: 367px;">Your Heading Goes Here</div>
@@ -203,7 +203,7 @@
             </div>
             
             <div onmouseover="$.setCurrentDialogId(this)" id="" style="display: none" class="dialog_text">
-                <p>Type Here</p>
+                <div style="display: block">Text: <input id="" onkeyup="$.setTextDescription(this)" value="" /></div>
                 
                 <div style="display: block">Font Color: <input id="" class="jscolor {onFineChange: '$.assignFontColor(this)'}" style="font-family: 'Titillium Web', sans-serif;" value="000000"></div>
                 <div style="display: block">Opacity: </div>

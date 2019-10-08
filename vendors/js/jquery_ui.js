@@ -8122,7 +8122,7 @@ var resizable = $.ui.resizable;
  */
 
 
-var dialog = $.widget( "ui.dialog", {
+var diaFin =  {
 	version: "1.11.3",
 	options: {
 		appendTo: "body",
@@ -8963,7 +8963,9 @@ var dialog = $.widget( "ui.dialog", {
 			this.overlay = null;
 		}
 	}
-});
+} //End of object
+    
+var dialog = $.widget( "ui.dialog", diaFin ); //End of dialog
 
 
 /*!

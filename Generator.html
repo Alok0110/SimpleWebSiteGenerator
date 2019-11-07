@@ -202,6 +202,12 @@
                 </div>
             </div>
             
+            <div onmouseover="$.setDeleteDialogId(this)" id="" style="display: none" class="dialog_delete">
+              <div style="display: block; padding-top: 4px; padding-bottom: 4px;">
+                <button type="button" onclick="$.assignBackHeightMax(this)" class="btn btn-default btn-color" style="font-family: 'Titillium Web', sans-serif;" >Delete</button>
+              </div>
+            </div>
+            
             <div onmouseover="$.setCurrentDialogId(this)" id="" style="display: none" class="dialog_text">
                 <div style="display: block; padding-top: 4px; padding-bottom: 4px;">Text:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="" onkeydown="$.setTextDescription(this)" value="" /></div>
                 
@@ -227,7 +233,7 @@
             </div>
             
             <div class="row " id="S1_RO_1_SOR" > <!-- sample1 row -->
-                <div id="S1_RO_1_SOR_COL_1" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
+                <div id="S1_RO_1_SOR_COL_1" onclick="$.setDialog(this, 'del')" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
                      
                     <img alt="" id="S1_RO_1_SOR_COL_1_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam1.png" />
                     
@@ -235,7 +241,7 @@
                          group 1
                     </div>-->
                 </div>
-                <div id="S1_RO_1_SOR_COL_2" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
+                <div id="S1_RO_1_SOR_COL_2" onclick="$.setDialog(this, 'del')" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
                     
                     <img alt="" id="S1_RO_1_SOR_COL_2_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam11.png" />
                     
@@ -243,7 +249,7 @@
                           group 1
                     </div>-->
                 </div>
-                <div id="S1_RO_1_SOR_COL_3" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
+                <div id="S1_RO_1_SOR_COL_3" onclick="$.setDialog(this, 'del')" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
                     
                     <img alt="" id="S1_RO_1_SOR_COL_3_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam5.png" />
                     
@@ -251,7 +257,7 @@
                           group 1
                     </div>-->
                 </div>
-                <div id="S1_RO_1_SOR_COL_4" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
+                <div id="S1_RO_1_SOR_COL_4" onclick="$.setDialog(this, 'del')" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
                     
                     <img alt="" id="S1_RO_1_SOR_COL_4_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam11.png" />
                     
@@ -323,6 +329,7 @@
                 </div>
                 
             </div>
+            
             
             <div class="row" id="S1_RO_6_SOR">
                 
@@ -399,7 +406,7 @@
         
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         
-        <script type="text/javascript" src="resources/js/SimpleWebSiteGenerator_min_.js" ></script>
+        <script type="text/javascript" src="resources/js/SimpleWebSiteGenerator_min_.js"></script>
         
     </body>
     

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <!-- meta tags -->
+        <meta charset="utf-8" />
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+        <!-- title tag -->
+        <title>Joffer - Web Generator</title>
+        <!-- meta tags social -->
+        <meta property="og:type" content="Website">
+        <meta property="og:title" content="Joffer · Web Generator">
+        <meta property="og:description" content="White Label Web Generator.">
+        <meta property="og:url" content="https://joffer.nz">
+        <meta property="og:image" content="http://joffer.nz/nz/alokdethe/resources/img/cover-cop.png">
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1600">
+        <meta property="og:image:height" content="1200">
+        <meta property="og:site_name" content="joffer.nz">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:url" content="https://www.joffer.nz">
+        <meta name="twitter:title" content="Joffer · Web Generator">
+        <meta name="twitter:description" content="White Label Web Generator.">
+        <meta name="twitter:creator" content="@alokdethe">
+        <meta name="twitter:image" content="http://www.joffer.nz/nz/alokdethe/resources/img/cover-cop.png">
+        <!-- All css -->
+        <link type="text/css" rel="stylesheet" href="vendors/css/normalize.css" >
+        
+        
+        <!-- Bootstrap 3.3.7 -->
+        <!--<link type="text/css" rel="stylesheet" href="vendors/css/bootstrap.min.css" >
+        <link type="text/css" rel="stylesheet" href="vendors/css/bootstrap-theme.min.css" >-->
+        <!--<link type="text/css" rel="stylesheet" href="vendors/css/bootstrap-theme.min.css.map">-->
+        
+        <!--<link type="text/css" rel="stylesheet" href="vendors/css/grid.css" >-->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="vendors/js/jquery-ui_/jquery-ui.css" >
+        
+        <link type="text/css" rel="stylesheet" href="resources/css/SimpleWebSiteGenerator.css" >
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">-->
+        <!-- Icons -->
+        <!--<link rel="apple-touch-icon" sizes="152x152" href="resources/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="resources/img/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="resources/img/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="resources/img/manifest.json">
+        <link rel="mask-icon" href="resources/img/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources/img/favicon.ico">-->
+        
+        
+        
+
+        
+        <meta name="msapplication-config" content="resources/img/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff"> 
+        <!--[if lt IE 9]>
+                <script src="resources/js/html5shiv.js"></script>
+                <script src="resources/js/html5shiv-printshiv.js"></script>
+                https://www.tranzlease.com/
+        <![endif]-->
+        
+        
+        <style type="text/css" >
+            
+            .header-img{
+                background-image: url('resources/img/sam2_img/banner.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 700px;
+                
+            }
+            
+            .header-text-cl{
+                font-size: 50px;
+                
+                display: inline-block;
+                /*padding-top: 100px;
+                padding-bottom: 100px;*/
+                
+                /*margin-top: 200px;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;*/
+                text-align: center;
+                outline: 3px dashed #5376F8;
+                font-family: 'Titillium Web', sans-serif;
+                /*background-color: #efefef;*/
+            }
+            
+            .logo-img{
+                font-size: 20px;
+                
+                display: inline-block;
+                text-align: center;
+                
+                outline: 3px dashed #5376F8;
+                
+                margin-left: 10%;
+                font-family: 'Titillium Web', sans-serif;
+                text-align: center;
+                padding: 10px;
+                width: 10%;
+                height: auto;
+            }
+            
+            .fixed-menu-bar{
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                height: 70px;
+                background-color: #F5FFFA;
+                z-index: 970;
+            }
+        </style>
+
+    </head>
+
+    <body  class="S1 container-fluid" style="height: 700px">
+        
+        <div class="panelSel " id="panelSelId">
+
+            <div class="innerPanelSel" id="innerPanelSelId">
+                <div class="Save_Final_Web_Page"><button id="" name="" value="">SAVE WEBPAGE</button></div>
+                <div class="headerBox">Web Page Site</div>
+                <div class="sam">
+                    <div id="sam1" onclick="$.getSamp(this, 'sam0')" class="sam1">Blank</div>
+                    <div id="sam2" onclick="$.getSamp(this, 'sam1')" class="sam2">Template #1</div>
+                </div>
+                <div class="sam">
+                    <div id="sam3" onclick="$.getSamp(this, 'sam2')" class="sam1">Template #2</div>
+                    <div id="sam4" onclick="$.getSamp(this, 'sam3')" class="sam2">Template #3</div>
+                </div>
+                
+                
+                <div class="headerBox">Custom Elements</div>
+                <div class="sam">
+                    <div class="sam1">Image Box [Space]</div>
+                    <div class="sam2">Image Box [No Space]</div>
+                    
+                </div>
+                
+                <div class="sam">
+                    <div class="sam3">Text Box</div>
+                </div>
+                
+                <div class="headerBox">Web Elements</div>
+                <div class="sam">
+                    <div class="sam1">Footer</div>
+                    <div class="sam2">Scroll</div>
+                    
+                </div>
+                <div class="sam">
+                    <div class="sam3"></div>
+                </div>
+                
+            </div>
+
+
+
+            <div class="handlerSel" id="handlerSelId">
+            </div>
+
+        </div>
+
+        <div class="leftColorPanelSel" id="leftColorPanelSelId">
+
+            <div class="leftInnerColorPanelSel" id="leftInnerColorPanelSelId">
+                
+                
+            </div>
+
+            <div class="leftHandlerSel" id="leftHandlerSelId">
+            </div>
+        </div>
+        
+        <div class="header-controller-cl">
+        </div>
+
+        <div class="section" id="mainContainerId" >
+            
+            <!--<div id="" class="row fixed-menu-bar parent_S1_LO_1_ID">
+                
+                <div id="S1_LO_1_ID" onclick="$.setDialog(this, 'img')" class="logo-img">ADD LOGO</div>
+                
+            </div>-->
+            
+            <div class="row" id="parent_H_DEL" onclick="$.setDialog(this, 'del')" style="">
+                <!-- header-img -->
+                <div id="" class="col header-img parent_H_1_ID COL_DRAG resizeEle" >
+                    
+                    
+                    <div id="S1_H_1_ID" onclick="$.setDialog(this, 'txt')" class="ui-widget-content header-text-cl" style="font-size: 50px;top: 420px;left: 397px;"><p id="S1_H_1_ID_PID" style="display: inline-block">Your Heading Here</p></div>
+                </div>
+            </div>
+            
+            <div onmouseover="$.setDeleteDialogId(this)" id="" style="display: none" class="dialog_delete">
+              <div style="display: block; padding-top: 4px; padding-bottom: 4px;">
+                <button type="button" onclick="$.assignBackHeightMax(this)" class="btn btn-default btn-color" style="font-family: 'Titillium Web', sans-serif;" >Delete</button>
+              </div>
+            </div>
+            
+            <div onmouseover="$.setCurrentDialogId(this)" id="" style="display: none" class="dialog_text">
+                <div style="display: block; padding-top: 4px; padding-bottom: 4px;">Text:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="" onkeydown="$.setTextDescription(this)" value="" /></div>
+                
+                <div style="display: block; padding-top: 4px; padding-bottom: 4px;">Font Color:&nbsp;&nbsp;<input id="" class="jscolor {onFineChange: '$.assignFontColor(this)'}" style="font-family: 'Titillium Web', sans-serif;" value="000000"></div>
+                <div style="display: block; padding-top: 4px; padding-bottom: 4px;">Opacity: </div>
+                <div style="display: block; padding-top: 4px; padding-bottom: 4px;">Back Color:&nbsp;&nbsp;<input id="" class="jscolor {onFineChange: '$.assignFontColor(this)'}" style="font-family: 'Titillium Web', sans-serif;" value="000000"></div>
+                <div style="padding-top: 4px; padding-bottom: 4px;">Back Height:&nbsp;<div class="btn-group" role="group" aria-label="...">
+                        <button type="button" onclick="$.assignBackHeightMax(this)" class="btn btn-default btn-color" style="font-family: 'Titillium Web', sans-serif;" >Max</button>&nbsp;&nbsp;
+                        <button type="button" onclick="$.assignBackHeightMin(this)" class="btn btn-default btn-color" style="font-family: 'Titillium Web', sans-serif;" >Min</button>
+  
+                        </div></div>
+ 
+                <div style="padding-top: 4px; padding-bottom: 4px;">Back Width:&nbsp;&nbsp;<div class="btn-group" role="group" aria-label="...">
+                        <button type="button" onclick="$.assignBackWidthMax(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Max</button>&nbsp;&nbsp;
+                        <button type="button" onclick="$.assignBackWidthMin(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Min</button>
+  
+                </div></div>
+                
+                <div style="padding-top: 4px; padding-bottom: 4px;">Delete:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="btn-group" role="group" aria-label="...">
+                        <button type="button" onclick="$.assignBackWidthMax(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Delete</button>&nbsp;&nbsp;
+                        
+                </div></div>
+                
+            </div>
+            
+            <div onmouseover="" id="" style="display: none" class="dialog_image">
+                <p>Upload Here</p>
+                <button type="button" onclick="$.assignBackWidthMax(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Delete</button>
+            </div>
+            
+            <!-- <div class="row " id="S1_RO_1_SOR" > 
+                <div id="S1_RO_1_SOR_COL_1" onclick="$.setDialog(this, 'del')" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
+                     
+                    <img alt="" id="S1_RO_1_SOR_COL_1_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam1.png" />
+                    
+                    
+                </div>
+                <div id="S1_RO_1_SOR_COL_2" onclick="$.setDialog(this, 'del')" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
+                    
+                    <img alt="" id="S1_RO_1_SOR_COL_2_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam11.png" />
+                    
+                     
+                </div>
+                <div id="S1_RO_1_SOR_COL_3" onclick="$.setDialog(this, 'del')" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
+                    
+                    <img alt="" id="S1_RO_1_SOR_COL_3_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam5.png" />
+                    
+                    
+                </div>
+                <div id="S1_RO_1_SOR_COL_4" onclick="$.setDialog(this, 'del')" class="col-6 col-sm-3 col-lg-3 COL_DRAG" style="text-align: center">
+                    
+                    <img alt="" id="S1_RO_1_SOR_COL_4_IMG_S" class="IMG_S" src="resources/img/user_specific_img/sam11.png" />
+                    
+                     
+                </div>
+            </div> -->
+            
+            
+            <div id="1013" onclick="$.setDialog(this, 'del')" class="row" id="S1_RO_2_SOR" style="background-color: #efefef;">
+                
+                
+                <div id="" class="col col-lg-6 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/mid-sam3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/item7.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/item8.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+            </div>
+            
+            
+            <div id="1019" onclick="$.setDialog(this, 'del')" class="row" id="S1_RO_7_SOR" style="background-color: #efefef;">
+                
+                
+                <div id="" class="col col-lg-8 COL_DRAG" style="height: 500px;background-image: url(resources/img/user_specific_img/sec_mid_1.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                <div id="" class="col col-lg-4 COL_DRAG" style="height: 500px;background-image: url(resources/img/user_specific_img/sec_mid_2.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+            
+            <div id="1017" onclick="$.setDialog(this, 'del')" class="row" id="S1_RO_5_SOR" style="background-color: #efefef;">
+                
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/item7.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/item8.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/item7.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/item8.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+            </div>
+            
+            <div id="1019" onclick="$.setDialog(this, 'del')" class="row" id="S1_RO_7_SOR" style="background-color: #efefef;">
+                
+                
+                <div id="" class="col col-lg-10 COL_DRAG" style="height: 300px;background-image: url(resources/img/user_specific_img/bottom_img_1.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                <div id="" class="col col-lg-2 COL_DRAG" style="height: 300px;background-image: url(resources/img/user_specific_img/bottom_img_2.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+            <div id="1020" onclick="$.setDialog(this, 'del')" class="row" id="S1_RO_2_SOR" style="background-color: #efefef;">
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/item7.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/item8.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                <div id="" class="col col-lg-6 COL_DRAG" style="height: 450px;background-image: url(resources/img/user_specific_img/b1.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+            <!--<div id="1013_RO_DEL" onclick="$.setDialog(this,'del')" class="row" id="S1_RO_5_SOR">
+            
+                <div id="" class="col col-lg-12 COL_DRAG resizeEle" style="height: 300px;
+                url(resources/img/user_specific_img/mall_large_img.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                    
+                    <div id="S1_TXT_1_ID" onclick="$.setDialog(this, 'txt')" class="COL_DRAG" style="height: 120px; width: 80%; margin-left: 10%; margin-right: 10%; margin-top: 80px; font-style: italic; font-size: 18px; outline-offset: -2px; font-family: 'Titillium Web', sans-serif;"><p id="S1_TXT_1_ID_PID" style="display: inline-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+            </div>-->
+            
+            
+            
+            
+            <!--<div class="row" id="S1_RO_4_SOR" style="background-color: #efefef; ">
+                
+                <div id="" class="col col-lg-6 COL_DRAG resizeEle" style="height: 800px">
+                    
+                    
+                    <div id="S1_H_3_ID" onclick="$.setDialog(this, 'txt')" class="COL_DRAG" style="height: 80px; width: 70%; text-align: center; font-family: 'Titillium Web', sans-serif; outline-offset: -2px; font-size: 40px; left: 15%; right: 15%; top: 40px;"><p id="S1_H_3_ID_PID" style="display: inline-block">HEADER</p></div>
+                    
+                    <div id="S1_TXT_3_ID" onclick="$.setDialog(this, 'txt')" class="COL_DRAG"  style="height: 450px; width: 80%; font-size: 30px; margin-top: 100px; margin-left: 10%; margin-right: 10%; outline-offset: -2px; font-family: 'Titillium Web', sans-serif; padding: 2px;"><p id="S1_TXT_3_ID_PID" style="display: inline-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p></div>
+                    
+                    
+                </div>
+                
+                <div id="" class="col col-lg-6 COL_DRAG" style="height: 800px;background-image: url(resources/img/user_specific_img/mall_large_img.png); background-repeat: no-repeat; background-size: cover; background-position: center">
+                    
+                </div>
+                
+                
+            </div>-->
+            
+            
+            
+            
+            
+            <div class="row" id="S1_RO_6_SOR">
+                
+                <div id="" class="col col-lg-3 COL_DRAG parent_S1_LO_2_ID resizeEle" style="height: 500px; background-color: #323232;">
+                    
+                    <div id="S1_LO_2_ID" onclick="$.setDialog(this, 'img')"  class="COL_DRAG" style="height: 150px; width: 150px; top: 25px; left: 25px; background-image: url(resources/img/user_specific_img/footer_logo1.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                    </div>
+                    
+                </div>
+                
+                <div id="" class="col col-lg-6 COL_DRAG parent_S1_FBTXT_1_ID resizeEle" style="height: 500px; background-color: #323232;">
+
+                    <div id="S1_FBTXT_1_ID" onclick="$.setDialog(this, 'txt')" class="COL_DRAG" style="height: 100px; width: 300px; margin-top: 50px; margin-left: 50px; font-family: 'Titillium Web', sans-serif; color: #808080; padding: 8px; outline-offset: -2px;"><p id="S1_FBTXT_1_ID_PID" style="display: inline-block">ADDRESS: 76 Quay St, Auckland CBD, Auckland 1010, New Zealand</p>
+                    </div>
+                    
+                </div>
+                
+                <div id="" class="col col-lg-3 COL_DRAG" style="height: 500px; background-color: #323232;">
+                    
+                    
+                    
+                </div>
+                
+            </div>
+            
+            <div class="row" id="S1_RO_3_SOR" style="/*background-color: #000000;*/" >
+                
+                <div id="" class="col col-lg-12 COL_DRAG" style="height: 400px; background-image: url(resources/img/user_specific_img/foot_img_1.png); background-color: #000000; background-position: center; background-repeat: no-repeat; background-size: cover;">
+                    
+                </div>
+                
+            </div>
+            
+            <!--<div class="row" id="S1_RO_3" >
+                <div class="col-6 col-sm-3 col-lg-3">
+                    group 1
+                </div>
+                <div class="col-6 col-sm-3 col-lg-3">
+                     group 1
+                </div>
+                <div class="col-6 col-sm-3 col-lg-3">
+                     group 1
+                </div>
+                <div class="col-6 col-sm-3 col-lg-3">
+                     group 1
+                </div>
+            </div>-->
+            
+        </div>
+        
+        
+        <!--<script type="text/javascript" src="vendors/js/jquery.js"></script>-->
+        
+        <!--<script
+  src="https://code.jquery.com/jquery-1.6.js"
+  integrity="sha256-p8mNoqAmClyKxhXK2Va4siC3otc9hTZNz3e2P5LpB7M="
+  crossorigin="anonymous"></script>-->
+        
+        <!--<script type="text/javascript" src="resources/js/jquery-ui/ui/jquery-ui.js"></script>-->
+        
+        <!--<script
+  src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"
+  integrity="sha256-0vBSIAi/8FxkNOSKyPEfdGQzFDak1dlqFKBYqBp1yC4="
+  crossorigin="anonymous"></script>-->
+        
+        <script src="vendors/js/jscolor.js"></script>
+        
+        <script type="text/javascript" src="vendors/js/jquery1.js"></script>
+        <script type="text/javascript" src="vendors/js/jquery-ui_/jquery-ui.js"></script>
+        
+        
+        
+        <!--
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+-->
+        <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="resources/js/SimpleWebSiteGenerator_min_.js"></script>
+        
+    </body>
+    
+</html>

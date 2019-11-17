@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <!-- meta tags -->
+        <meta charset="utf-8" />
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+        <!-- title tag -->
+        <title>Joffer - Web Generator</title>
+        <!-- meta tags social -->
+        <meta property="og:type" content="Website">
+        <meta property="og:title" content="Joffer · Web Generator">
+        <meta property="og:description" content="White Label Web Generator.">
+        <meta property="og:url" content="https://joffer.nz">
+        <meta property="og:image" content="http://joffer.nz/nz/alokdethe/resources/img/cover-cop.png">
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1600">
+        <meta property="og:image:height" content="1200">
+        <meta property="og:site_name" content="joffer.nz">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:url" content="https://www.joffer.nz">
+        <meta name="twitter:title" content="Joffer · Web Generator">
+        <meta name="twitter:description" content="White Label Web Generator.">
+        <meta name="twitter:creator" content="@alokdethe">
+        <meta name="twitter:image" content="http://www.joffer.nz/nz/alokdethe/resources/img/cover-cop.png">
+        <!-- All css -->
+        <link type="text/css" rel="stylesheet" href="vendors/css/normalize.css" >
+        
+        
+        <!-- Bootstrap 3.3.7 -->
+        <!--<link type="text/css" rel="stylesheet" href="vendors/css/bootstrap.min.css" >
+        <link type="text/css" rel="stylesheet" href="vendors/css/bootstrap-theme.min.css" >-->
+        <!--<link type="text/css" rel="stylesheet" href="vendors/css/bootstrap-theme.min.css.map">-->
+        
+        <!--<link type="text/css" rel="stylesheet" href="vendors/css/grid.css" >-->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="vendors/js/jquery-ui_/jquery-ui.css" >
+        
+        <link type="text/css" rel="stylesheet" href="resources/css/SimpleWebSiteGenerator.css" >
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">-->
+        <!-- Icons -->
+        <!--<link rel="apple-touch-icon" sizes="152x152" href="resources/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="resources/img/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="resources/img/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="resources/img/manifest.json">
+        <link rel="mask-icon" href="resources/img/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources/img/favicon.ico">-->
+        
+        
+        
+
+        
+        <meta name="msapplication-config" content="resources/img/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff"> 
+        <!--[if lt IE 9]>
+                <script src="resources/js/html5shiv.js"></script>
+                <script src="resources/js/html5shiv-printshiv.js"></script>
+                https://www.tranzlease.com/
+        <![endif]-->
+        
+        
+        <style type="text/css" >
+            
+            .header-img{
+                background-image: url('resources/img/head1.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 500px;
+                
+            }
+            
+            .header-text-cl{
+                font-size: 50px;
+                
+                display: inline-block;
+                /*padding-top: 100px;
+                padding-bottom: 100px;*/
+                
+                /*margin-top: 200px;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;*/
+                text-align: center;
+                outline: 3px dashed #5376F8;
+                font-family: 'Titillium Web', sans-serif;
+                /*background-color: #efefef;*/
+            }
+            
+            .logo-img{
+                font-size: 20px;
+                
+                display: inline-block;
+                text-align: center;
+                
+                outline: 3px dashed #5376F8;
+                
+                margin-left: 10%;
+                font-family: 'Titillium Web', sans-serif;
+                text-align: center;
+                padding: 10px;
+                width: 10%;
+                height: auto;
+            }
+            
+            .fixed-menu-bar{
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                height: 70px;
+                background-color: #F5FFFA;
+                z-index: 970;
+            }
+        </style>
+
+    </head>
+
+    <body  class="S1 container-fluid" style="height: 700px">
+        
+        <div class="panelSel " id="panelSelId">
+
+            <div class="innerPanelSel" id="innerPanelSelId">
+                <div class="Save_Final_Web_Page"><button id="" name="" value="">SAVE WEBPAGE</button></div>
+                <div class="headerBox">Web Page Site</div>
+                <div class="sam">
+                    <div id="sam1" onclick="$.getSamp(this, 'sam0')" class="sam1">Blank</div>
+                    <div id="sam2" onclick="$.getSamp(this, 'sam1')" class="sam2">Template #1</div>
+                </div>
+                <div class="sam">
+                    <div id="sam3" onclick="$.getSamp(this, 'sam2')" class="sam1">Template #2</div>
+                    <div id="sam4" onclick="$.getSamp(this, 'sam3')" class="sam2">Template #3</div>
+                </div>
+                
+                
+                <div class="headerBox">Custom Elements</div>
+                <div class="sam">
+                    <div class="sam1">Image Box [Space]</div>
+                    <div class="sam2">Image Box [No Space]</div>
+                    
+                </div>
+                
+                <div class="sam">
+                    <div class="sam3">Text Box</div>
+                </div>
+                
+                <div class="headerBox">Web Elements</div>
+                <div class="sam">
+                    <div class="sam1">Footer</div>
+                    <div class="sam2">Scroll</div>
+                    
+                </div>
+                <div class="sam">
+                    <div class="sam3"></div>
+                </div>
+                
+            </div>
+
+
+
+            <div class="handlerSel" id="handlerSelId">
+            </div>
+
+        </div>
+
+        <div class="leftColorPanelSel" id="leftColorPanelSelId">
+
+            <div class="leftInnerColorPanelSel" id="leftInnerColorPanelSelId">
+                
+                
+            </div>
+
+            <div class="leftHandlerSel" id="leftHandlerSelId">
+            </div>
+        </div>
+        
+        <div class="header-controller-cl">
+        </div>
+
+        <h1>Template#3</h1>
+        <!--<script type="text/javascript" src="vendors/js/jquery.js"></script>-->
+        
+        <!--<script
+  src="https://code.jquery.com/jquery-1.6.js"
+  integrity="sha256-p8mNoqAmClyKxhXK2Va4siC3otc9hTZNz3e2P5LpB7M="
+  crossorigin="anonymous"></script>-->
+        
+        <!--<script type="text/javascript" src="resources/js/jquery-ui/ui/jquery-ui.js"></script>-->
+        
+        <!--<script
+  src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"
+  integrity="sha256-0vBSIAi/8FxkNOSKyPEfdGQzFDak1dlqFKBYqBp1yC4="
+  crossorigin="anonymous"></script>-->
+        
+        <script src="vendors/js/jscolor.js"></script>
+        
+        <script type="text/javascript" src="vendors/js/jquery1.js"></script>
+        <script type="text/javascript" src="vendors/js/jquery-ui_/jquery-ui.js"></script>
+        
+        
+        
+        <!--
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+-->
+        <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="resources/js/SimpleWebSiteGenerator_min_.js"></script>
+        
+    </body>
+    
+</html>

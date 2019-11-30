@@ -175,6 +175,14 @@ h3{
     font-family: 'Titillium Web', sans-serif;
 }
 
+.showBlock{
+    display: block;
+}
+
+.showNone{
+    display: none;
+}
+
 .sam1, .sam2, .sam3{
     width: 45%;
     height: 90px;

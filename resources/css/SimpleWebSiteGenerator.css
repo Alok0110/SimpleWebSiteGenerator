@@ -227,6 +227,12 @@ h3{
     cursor: pointer;
 }
 
+.COL_DRAG_R{
+    outline: 3px dashed red;
+    outline-offset: -30px;
+    cursor: pointer;
+}
+
 /*-----------------------------------*/
 /* CLEAR FLOAT FOR RESPONSIVE DESIGN */
 /*-----------------------------------*/

@@ -1,17 +1,17 @@
 #panelSelId{
 	
 	/*background-color: blue;*/
-	width: 5%;
+	width: 100%; /* 5% */
 	height: 100%;
 	margin-left: 0px;
     left: 0;
-	position: fixed;
+	position: relative; /*fixed*/
 	z-index: 998;
 }
 
 #innerPanelSelId{
 	position: relative;
-	width: 1%;
+	width: 82%; /* 1% */
 	height: 100%;
 	background-color: #efefef;
 	float: left;
@@ -21,6 +21,29 @@
 }
 
 
+/***** Tool Tip Start *****/
+
+/* Tooltip container */
+
+.sam1:hover .tooltiptext {
+  visibility: visible;
+}
+
+.sam2:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext{
+    visibility: hidden;
+    position: relative;
+    display: inline-block;
+    width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+/***** Tool Tip End *****/
 
 .btn{
     background-color: cadetblue;

@@ -256,6 +256,10 @@ h3{
     cursor: pointer;
 }
 
+.TEMP_TXT{
+    width: 250px;
+    height: 250px;
+}
 /*-----------------------------------*/
 /* CLEAR FLOAT FOR RESPONSIVE DESIGN */
 /*-----------------------------------*/

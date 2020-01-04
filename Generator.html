@@ -193,8 +193,8 @@
             
             <div id="" class="row fixed-menu-bar parent_S1_LO_1_ID">
                 
-                <div id="S1_LO_1_ID" onclick="$.setDialog(this, 'img')" class="logo-img">ADD LOGO</div>
-                
+                <div id="S1_LO_1_ID" onclick="$.setDialog(this, 'img')" class="logo-img"></div>
+                <!-- ADD LOGO -->
             </div>
             
             <div class="row mover_1 dropElem" id="parent_H_DEL" onclick="$.setDialog(this, 'del')" style="">
@@ -242,8 +242,10 @@
             </div>
             
             <div onmouseover="" id="" style="display: none" class="dialog_image">
-                <p>Upload Here</p>
-                <button type="button" onclick="$.assignDeleteFunc(this,'img')" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif;" >Delete</button>
+                <button type="button" onclick="$.setImageUrl(this)" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif; display: inline-block; margin-bottom: 2px;">Set Web Image URL</button>
+                <input id="setImageInputId" type="text" style="width: 70%" placeholder="Enter URL" />
+                <button type="button" onclick="" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif; display: block; margin-bottom: 2px;">Upload from disk</button>
+                <button type="button" onclick="$.assignDeleteFunc(this,'img')" class="btn btn-default" style="font-family: 'Titillium Web', sans-serif; display: block; margin-bottom: 2px;" >Delete</button>
             </div>
             
             <div class="row mover_2 dropElem" id="S1_RO_1_SOR" > <!-- sample1 row -->
@@ -385,7 +387,7 @@
                     <div id="" onclick="$.setDialog(this, 'txt')" class="COL_DRAG"  style="height: 50px; font-size: 30px; outline-offset: -2px; font-family: 'Titillium Web', sans-serif; padding: 2px;"><p id="" >Your Txt Here</p></div>
                     
                 </div>
-                <div id="drag_img_tp_1_dup" class="sam2"  style="display: none" ><div class="COL_DRAG">Click And Upoad Image</div></div>
+                <div id="drag_img_tp_1_dup" class="sam2"  style="display: none" ><div class="COL_DRAG"></div></div>
                 
                 <div id="drag_img_tp_3_dup" class="sam3" style="display: none"><div class="COL_DRAG"></div></div>
                     
